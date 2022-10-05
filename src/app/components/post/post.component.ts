@@ -1,6 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {IPost} from "../../modules/IPost";
 
+
 @Component({
   selector: 'app-post',
   templateUrl: './post.component.html',
@@ -11,9 +12,10 @@ export class PostComponent implements OnInit {
   @Input()
   post: IPost;
 
-  constructor() { }
+  constructor() {
 
-  ngOnInit(): void {
   }
+
+  ngOnInit(): void {}
 
 }
