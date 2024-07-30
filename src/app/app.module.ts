@@ -9,6 +9,7 @@ import { PostsComponent } from './components/posts/posts.component';
 import { PostComponent } from './components/post/post.component';
 import { CommentsComponent } from './components/comments/comments.component';
 import { CommentComponent } from './components/comment/comment.component';
+import { UserDetailsComponent } from './components/user-details/user-details.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { CommentComponent } from './components/comment/comment.component';
     PostComponent,
     CommentsComponent,
     CommentComponent,
+    UserDetailsComponent,
   ],
   imports: [
     BrowserModule,
